@@ -22,8 +22,4 @@ class DateData {
         System.out.println("Date is "+day+month+year);
     }
 
-
-
-
-
 }

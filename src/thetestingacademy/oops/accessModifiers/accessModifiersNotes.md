@@ -1,6 +1,6 @@
 ### Access Modifiers 
 
-They are used tp impose access restrictions on different data members and member functions.
+They are used to impose access restrictions on different data members and member functions.
 
 ### Three types of access modifiers in Java
 
