@@ -1,0 +1,371 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticBlock",
+            "request": "launch",
+            "mainClass": "thetestingacademy.corejava.Static.StaticBlock",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticClass",
+            "request": "launch",
+            "mainClass": "thetestingacademy.corejava.Static.StaticClass",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticDemo",
+            "request": "launch",
+            "mainClass": "thetestingacademy.corejava.Static.StaticDemo",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticVariables",
+            "request": "launch",
+            "mainClass": "thetestingacademy.corejava.Static.StaticVariables",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunnerSingleTon",
+            "request": "launch",
+            "mainClass": "thetestingacademy.designpattern.SingleTon.RunnerSingleTon",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericsDemo",
+            "request": "launch",
+            "mainClass": "thetestingacademy.generics.GenericsDemo",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Problem",
+            "request": "launch",
+            "mainClass": "thetestingacademy.generics.Problem",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GRunner",
+            "request": "launch",
+            "mainClass": "thetestingacademy.generics.example.GRunner",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TClass",
+            "request": "launch",
+            "mainClass": "thetestingacademy.generics.example3.TClass",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenericsRunner",
+            "request": "launch",
+            "mainClass": "thetestingacademy.generics.start.GenericsRunner",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClas",
+            "request": "launch",
+            "mainClass": "thetestingacademy.multithreading.MainClas",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicAbsExample",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.abstraction.BasicAbsExample",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClass",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.abstraction.abstracMethodDemo.MainClass",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClass(1)",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.abstraction.interfaceDemo.MainClass",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Thief",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.accessModifiers.criminal.Thief",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicConstructor",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.constructors.BasicConstructor",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorWithInConstructor",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.constructors.ConstructorWithInConstructor",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch CopyConstructor",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.constructors.CopyConstructor",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThisDemo",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.constructors.ThisDemo",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch defaultConstructor",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.constructors.defaultConstructor",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch BadExample",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.ecapsulation.BadExample",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GoodExample",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.ecapsulation.GoodExample",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClass(2)",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.inheritence.example.Hierarchical.MainClass",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClass(3)",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.inheritence.example.Multilevel.MainClass",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClass(4)",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.inheritence.example.SingleInheritance.MainClass",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SuperDemo",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.inheritence.superdemo.SuperDemo",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClas(1)",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.polymorphism.MethodOverloading.MainClas",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClass(5)",
+            "request": "launch",
+            "mainClass": "thetestingacademy.oops.polymorphism.MethodOverriding.MainClass",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstract00",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.Abstract00",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstract004",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.Abstract004",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstract005",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.Abstract005",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstract01",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.Abstract01",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstract02",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.Abstract02",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Abstract03",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.Abstract03",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch OOPsProblemAbs",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.OOPsProblemAbs",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch OOPsProblemAbs1",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.OOPsProblemAbs1",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example002",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.zero.Example002",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example003",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.zero.Example003",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example004",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.zero.Example004",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example01",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.AbstractDemo.zero.Example01",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interface01",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.InterfaceDemo.Interface01",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interface02",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.InterfaceDemo.Interface02",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultipleInheritence",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.InterfaceDemo.MultipleInheritence",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inner02",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.innerDemo.Inner02",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch InnerDemo",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.innerDemo.InnerDemo",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch OOPsDemo",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.innerDemo.OOPsDemo",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticInner",
+            "request": "launch",
+            "mainClass": "thetestingacademy.problem.oops.innerDemo.StaticInner",
+            "projectName": "ATBJavaNotes_29a1bbf0"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestClass",
+            "request": "launch",
+            "mainClass": "HelloCollections/test.TestClass",
+            "projectName": "HelloCollections"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "HelloWorld/test.Main",
+            "projectName": "HelloWorld"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "tta.com.tta.App",
+            "projectName": "com.tta"
+        }
+    ]
+}

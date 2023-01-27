@@ -1,6 +1,6 @@
 package thetestingacademy.exceptions.throwsdemo;
 
-import thetestingacademy.exceptions.throwsdemo.customexcep.CustomException;
+import thetestingacademy.exceptions.customexcep.CustomException;
 
 public class Bank {
 

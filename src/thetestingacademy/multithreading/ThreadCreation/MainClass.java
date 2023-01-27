@@ -1,6 +1,6 @@
 package thetestingacademy.multithreading;
 
-public class MainClas {
+public class MainClass {
     public static void main(String[] args) throws InterruptedException {
        SumOneThread();
        TwoThread();

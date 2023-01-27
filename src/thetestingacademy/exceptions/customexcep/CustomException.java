@@ -1,4 +1,4 @@
-package thetestingacademy.exceptions.throwsdemo.customexcep;
+package thetestingacademy.exceptions.customexcep;
 
 public class CustomException extends Exception {
         public CustomException(String msg){
