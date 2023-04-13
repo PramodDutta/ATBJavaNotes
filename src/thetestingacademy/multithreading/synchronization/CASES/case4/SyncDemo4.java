@@ -1,6 +1,6 @@
-package thetestingacademy.multithreading.synchronization.CASES.case3;
+package thetestingacademy.multithreading.synchronization.CASES.case4;
 
-public class SyncDemo3 {
+public class SyncDemo4 {
 
     public static void main(String[] args) throws Exception{
         Sync s1=new Sync();
@@ -54,7 +54,7 @@ class Sync {
         }
     }
 
-    synchronized void m2() {
+    void m2() {
         Thread th = Thread.currentThread();
         for (int i = 101; i <= 105; i++) {
             System.out.println(th.getName() + " - m2 -" + i);

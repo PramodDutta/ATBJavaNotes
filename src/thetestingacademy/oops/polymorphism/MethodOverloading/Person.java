@@ -7,8 +7,9 @@ public class Person {
     void printType(byte x) {
         System.out.println(x + " is an byte");
     }
-    void printType(int x) {
+    int printType(int x) {
         System.out.println(x + " is an int");
+        return 0;
     }
     void printType(float x) {
         System.out.println(x + " is an float");

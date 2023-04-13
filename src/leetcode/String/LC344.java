@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.String;
 
 import java.util.Arrays;
 
@@ -6,6 +6,7 @@ public class LC344 {
     public static void main(String[] args) {
         Solution solution = new Solution();
         char[] s = {'H','a','n','n','a','h'};
+        // hannaH
         //solution.reverseString(s);
         reverseString2(s);
     }

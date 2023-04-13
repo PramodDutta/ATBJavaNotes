@@ -4,8 +4,8 @@ import thetestingacademy.exceptions.customexcep.CustomException;
 
 public class Bank {
 
-    String currency;
-    Integer amount;
+    private String currency;
+    private Integer amount;
 
     public Bank(String currency, Integer amount) {
         this.currency = currency;
@@ -28,11 +28,16 @@ public class Bank {
         this.amount = amount;
     }
 
-    public Integer add(Bank value) throws Exception {
+    public Integer add(Bank value) throws CustomException { // This method can thorws some Exception Yes?
         System.out.println("Total ");
         if(!(value.currency.equals("USD"))){
             //throw new RuntimeException("Currencies don't Match!");
-            throw new CustomException("Currencies don't Match!");
+            //throw new Exception("USD and INR sum is not supported");
+
+            // How JVM will know that USD + INR is not possible?
+            //
+            //Integer [] i = new Integer[-1];
+            throw new CustomException("USD and INR sum is not supported");
         }
         Integer sum = this.amount+value.amount;
         return sum;

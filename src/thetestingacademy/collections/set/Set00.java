@@ -11,16 +11,12 @@ public class Set00 {
         fruits.add("Apple");
         fruits.add("Yak");
         fruits.add("Pak");
+        fruits.add("Pak");
         System.out.println(fruits);
 
-        // Iterating over hashSet items
-        Iterator<String> i = fruits.iterator();
+        // No order maintained
+        // No duplicate value
+        // ??
 
-        // Holds true till there is single element remaining
-        while (i.hasNext())
-
-            // Iterating over elements
-            // using next() method
-            System.out.println(i.next());
     }
 }

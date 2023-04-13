@@ -7,6 +7,7 @@ public class Ex09 {
     public static void main(String[] args) {
         extracted();
     }
+
     private static void extracted() {
         try(Scanner scanner  = new Scanner(System.in)) {
             Integer[] array = {2, 3};

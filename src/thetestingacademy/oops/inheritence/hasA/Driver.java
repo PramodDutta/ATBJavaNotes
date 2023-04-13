@@ -1,4 +1,4 @@
-package atb.classdemo.hasA;
+package thetestingacademy.oops.inheritence.hasA;
 
 public class Driver {
 

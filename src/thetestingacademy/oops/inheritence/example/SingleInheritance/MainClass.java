@@ -8,6 +8,11 @@ public class MainClass {
         java.printDetails();
 
 
+        Python p = new Python(3,"RK2","HTTP");
+        p.printPython();
+
+
+
 
     }
 }

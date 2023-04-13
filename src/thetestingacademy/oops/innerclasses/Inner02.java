@@ -1,4 +1,4 @@
-package atb.classdemo.innerClassDemo;
+package thetestingacademy.oops.innerclasses;
 
 public class Inner02 {
 
@@ -10,8 +10,7 @@ public class Inner02 {
 
 
 class P1 {
-    int a = 10;
-
+    int a = 10; // Instance Variables
     void eating() {
         abstract class Child {
             int gold = 100;
@@ -21,15 +20,17 @@ class P1 {
             abstract void say();
         }
         class A extends Child{
-
             @Override
             void say() {
-
             }
         }
     }
 
-
-
-
+    // Inner Class
+    class Ch1{
+        // Inner class
+        void printA(){
+            System.out.println(a);
+        }
+    }
 }

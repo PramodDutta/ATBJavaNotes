@@ -1,4 +1,4 @@
-package thetestingacademy.oops.anonymousclass;
+package thetestingacademy.oops.innerclasses.anonymousclass;
 
 public class Anony05 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package thetestingacademy.problem.oops.AbstractDemo;
+package thetestingacademy.problem.oops.AbstractDemo.zero;
 
 public class Abstract004 {
     public static void main(String[] args) {

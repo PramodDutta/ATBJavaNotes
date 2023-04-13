@@ -1,4 +1,4 @@
-package thetestingacademy.oops.anonymousclass;
+package thetestingacademy.oops.innerclasses.anonymousclass;
 
 public class Anony01 {
     public static void main(String[] args) {
@@ -10,6 +10,7 @@ public class Anony01 {
                 System.out.println("Hello A!!"+ age);
             }
         };
+        a.test1();
 
         B b = new B();
         b.testB();
@@ -28,6 +29,7 @@ class B{
             static int p = 100;
             @Override
             void test1() {
+                 // Secure information here
                 p = 200;
                 System.out.println(var_b);
                 System.out.println(test);

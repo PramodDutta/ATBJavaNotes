@@ -1,18 +1,23 @@
 package thetestingacademy.multithreading;
 
-public class Task03 {
+public class Task06 {
     public static void main(String[] args) {
 
-        Worker worker = new Worker();
+        // Constructor with Name
+        Worker6 worker = new Worker6("W1");
         worker.start();
         // Where is the Start ?
-        Worker worker2 = new Worker();
+        Worker6 worker2 = new Worker6("W2");
         worker2.start();
 
     }
 }
 
-class Worker extends Thread{
+class Worker6 extends Thread{
+    // Constructor with Name
+    Worker6(String name){
+        super(name);
+    }
 
     @Override
     public void run() {

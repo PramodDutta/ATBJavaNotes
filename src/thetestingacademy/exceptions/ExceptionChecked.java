@@ -14,6 +14,7 @@ public class ExceptionChecked {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } finally {
+            //file.close();
         }
     }
 }

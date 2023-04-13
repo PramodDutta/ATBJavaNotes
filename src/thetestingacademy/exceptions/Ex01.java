@@ -1,11 +1,13 @@
 package thetestingacademy.exceptions;
 
+import java.util.Scanner;
+
 public class Ex01 {
     // 3 PROBLEM in this problem
     public static void main(String[] args) {
-        String sh = args[0];
-        int x = Integer.parseInt(sh);
-        int a = 10/x;
+        String sh = args[0]; // 1
+        int x = Integer.parseInt(sh); // 2
+        int a = 10/x; // 3
         System.out.println(x);
         System.out.println(a);
     }

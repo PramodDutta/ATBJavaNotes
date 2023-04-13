@@ -9,6 +9,8 @@ public class Ex08 {
         } finally {
             System.out.println("Finally 01");
         }
+
+
         try {
             int a = 10 / 0;
         } catch (Exception a) {
@@ -24,6 +26,9 @@ public class Ex08 {
         } finally {
             System.out.println("Finally 03");
         }
+
+
+
         try {
             int a = 10 / 20;
         } catch (Exception a) {

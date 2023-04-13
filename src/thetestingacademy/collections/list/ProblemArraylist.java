@@ -3,6 +3,7 @@ package thetestingacademy.collections.list;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.List;
 
 public class ProblemArraylist {
 
@@ -15,6 +16,11 @@ public class ProblemArraylist {
         list.add("maple");
         list.add("ragable");
 
+        //Logic Building
+        // Can I do with contains?
+        // String then ?
+        // Traditional for loop, while loops
+
         ArrayList<String> newList = new ArrayList();
 
         for (String o:list) {
@@ -22,6 +28,17 @@ public class ProblemArraylist {
                 System.out.println(o);
             }
         }
+
+
+        // Contains- exact -> match
+        // Not all the functions good for List
+
+        // 1. Can i USE THE coLLECTION FRAMEWORK Methods?
+        // 2. cAN i USE THE DEFAULT METHODS OF WRAPPER CLASSES OR Strings
+        // 2. Traditonal Forloop and if or while loop
+
+
+
         // Remove all words end with the ble
         //{ able, capable, maple, ragable}
 
@@ -40,10 +57,24 @@ public class ProblemArraylist {
         }
         System.out.println(list);
 
+
+
         list.add("capable");
+        list.add("apable");
         list.add("maple");
         list.add("ragable");
+
+        List<Integer> myMakrs = new ArrayList<>();
+        myMakrs.add(91);
+        myMakrs.add(87);
+        myMakrs.add(80);
+        Collections.sort(myMakrs);
+        System.out.println(myMakrs);
+
+
         Collections.sort(list);
         System.out.println(list);
+
+
     }
 }

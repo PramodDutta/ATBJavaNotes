@@ -4,12 +4,12 @@ public class Test {
 
     public static void main(String[] args) {
         BankAccount account = new BankAccount(100.0);
-
         try {
             account.withdraw(200.0);
         } catch (InsufficientFundsException e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
+
     }
 }
 

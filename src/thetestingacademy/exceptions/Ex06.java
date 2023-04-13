@@ -1,5 +1,7 @@
 package thetestingacademy.exceptions;
 
+import java.util.Scanner;
+
 public class Ex06 {
     public static void main(String[] args) {
         ProblemF problemF = new ProblemF();
@@ -8,20 +10,31 @@ public class Ex06 {
     }
 }
 
-class ProblemF{
+class ProblemF {
     int a = 10;
-    int show(){
-        try{
-//            a =  10/0;
-            System.out.println("In class -> "+ a);
+
+    int show() {
+        try {
+            a = 10 / 0;
+            System.out.println("In Try -> " + a);
             return a;
-        }catch (Exception e){
-            System.out.println("Catch");
-            a = 20;
+        } catch (Exception e) {
+            try {
+                a = 20 / 0;
+            } catch (Exception e1) {
+                System.out.println("Yes");
+            }
+            System.out.println("In Catch -> " + a);
             return a;
-        }finally {
+        } finally {
+
+            // 100% executed
+            // driver.close();
+            // db.close()
+            // fileIn.clioe();
+
             System.out.println("I am Final");
-            //int[] a1 = new int[-1]; fix it
+            //int[] a1 = new int[-1];
         }
     }
 }

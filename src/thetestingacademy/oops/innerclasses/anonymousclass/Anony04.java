@@ -1,4 +1,4 @@
-package thetestingacademy.oops.anonymousclass;
+package thetestingacademy.oops.innerclasses.anonymousclass;
 
 public class Anony04 {
     // Using Anonymous Inner class that implements an interface

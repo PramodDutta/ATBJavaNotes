@@ -1,4 +1,4 @@
-package thetestingacademy.problem.oops.AbstractDemo;
+package thetestingacademy.problem.oops.AbstractDemo.zero;
 
 //abstract class Abstract005 {
 class Abstract005 {

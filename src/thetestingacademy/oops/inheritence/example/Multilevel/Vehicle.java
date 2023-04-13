@@ -10,6 +10,7 @@ public class Vehicle {
         this.speed = speed;
     }
 
+    // Meethods
     void topSpeed(){
         System.out.println("Top Speed"+this.speed);
     }

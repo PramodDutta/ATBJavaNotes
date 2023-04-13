@@ -1,4 +1,4 @@
-package thetestingacademy.problem.oops.innerDemo;
+package thetestingacademy.problem.oops.InnerClassDemo;
 
 public class OOPsDemo {
     public static void main(String[] args) {

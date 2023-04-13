@@ -1,0 +1,38 @@
+Type casting can be done in two ways:
+o Implicit casting
+o Explicit Casting
+
+Implicit casting:
+When type casting is happening automatically by the compiler then it is called as Implicit Casting.
+
+
+
+Explicit Casting:
+When type casting is happening explicitly by the programmer then it is called as Explicit Casting.
+There are two types of conversions:
+o Widening
+o Narrowing
+
+Widening
+ Widening is the process of converting lower type to higher type. This is safe conversion.
+ Ex:
+ byte b=10;
+ int a=b; // VALID – Implicit Casting
+ int a= (int)b; // VALID – Explicit Casting
+
+Narrowing
+ Narrowing is the process of converting higher type to lower type.
+ Ex:
+ int a=300;
+ byte b=a; // INVALID – Implicit Casting
+ byte b = (byte)a; // VALID – Explicit Casting
+
+
+ int a=300; -> int means 32 bits memory required
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 1 0 0
+ byte b1=(byte)a; -> byte means 8 bits memory required
+ 0 0 1 0 1 1 0 0
+ Value is
+ 0 * 27 + 0 * 26 + 1 * 25 + 0 * 24 + 1 * 23 + 1 * 22 + 0 * 21 + 0 * 20
+ 0 + 0 + 32 + 0 + 8 + 4 + 0 + 0 = 44.
+

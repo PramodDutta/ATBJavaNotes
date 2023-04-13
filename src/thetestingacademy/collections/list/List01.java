@@ -8,9 +8,12 @@ public class List01 {
     public static void main(String[] args) {
         // ArrayList
 
-        List stringList = new ArrayList<>();
+        List<String> stringList = new ArrayList();
+
         stringList.add("pramod");
         stringList.add("dutta");
+
+
         // Add with Index
         stringList.add(2,"lucky");
         System.out.println(stringList);
@@ -22,18 +25,29 @@ public class List01 {
         System.out.println(stringList);
 
 
+
+
         // Iterate over
         for (int i = 0; i < stringList.size(); i++) {
             System.out.println(stringList.get(i));
         }
 
         System.out.println(" \n");
-        //
-        for (Object s:stringList) {
+        // ForEach
+
+
+        for (String s:stringList) {
             System.out.println(s);
         }
 
         System.out.println(" ------------");
+
+
+
+
+
+
+
         // Using Iterator
         Iterator iterator = stringList.iterator();
         while (iterator.hasNext()){

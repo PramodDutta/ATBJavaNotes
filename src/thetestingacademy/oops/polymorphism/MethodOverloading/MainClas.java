@@ -6,6 +6,5 @@ public class MainClas {
         new Person().printType(1);
         new Person().printType(1.3);
         new Person().printType("dsds",'2');
-
     }
 }

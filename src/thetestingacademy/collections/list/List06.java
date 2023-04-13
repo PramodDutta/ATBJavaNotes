@@ -2,8 +2,11 @@ package thetestingacademy.collections.list;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
-public class List05 {
+public class List06 {
+
+    //ConcurrentModificationException
     public static void main(String[] args) {
         List ttacourseList = new ArrayList();
         ttacourseList.add("ATB");
@@ -12,34 +15,15 @@ public class List05 {
         ttacourseList.add("SDET Blueprint");
         ttacourseList.add("Java for Testers");
 
-        List numList = new ArrayList();
-        numList.add(150);
-        numList.add(100);
-        numList.add(100);
-        numList.add(399);
-
-        ttacourseList.add(3, "SQL");
-        System.out.println(ttacourseList);
-//ttacourseList.remove("Hello");
-        System.out.println(ttacourseList.remove(5));
-        System.out.println(ttacourseList.remove(4));
-        System.out.println(ttacourseList);
-//ttacourseList.add(10,"MS");
-//ttacourseList.remove(10);
-
-        // Index Of, Last index Of and Set method
-        System.out.println(ttacourseList.indexOf("ATB"));
-        System.out.println(ttacourseList.indexOf("MTB"));
-        System.out.println(ttacourseList.lastIndexOf("SQL"));
-        System.out.println(ttacourseList.indexOf("DSA"));
-        System.out.println(ttacourseList);
-        ttacourseList.set(3,"Java 19");
+        ListIterator lt = ttacourseList.listIterator();
+        while(lt.hasPrevious()){
+            System.out.println(lt.previousIndex());
+//                 lt.add("Hello"); //OK
+//                 lt.remove(); //OK
+//                lt.set("Hello"); //OK
+               ttacourseList.add("Python"); // Not Ok
+        }
         System.out.println(ttacourseList);
 
-
-
-        // Sublist
-        List mylist1=ttacourseList.subList(2,4);
-        System.out.println(mylist1);
     }
 }

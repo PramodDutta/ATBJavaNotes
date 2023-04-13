@@ -6,13 +6,13 @@ import java.util.List;
 
 public class List00 {
     public static void main(String[] args) {
-        List fruites = List.of("orange","apple");
+        List fruites = List.of("orange","apple","apple");
         System.out.println(fruites);
         // Size
         System.out.println(fruites.size());
         System.out.println(fruites.get(0));
         System.out.println(fruites.get(1));
-        //System.out.println(fruites.get(2));
+        //System.out.println(fruites.get(3));
 
         // Find the Value
         System.out.println(fruites.indexOf("apple"));

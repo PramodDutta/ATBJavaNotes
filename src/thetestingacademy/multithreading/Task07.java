@@ -1,15 +1,17 @@
 package thetestingacademy.multithreading;
 // Runnable
-public class Task05 {
+public class Task07 {
 
     public static void main(String[] args) {
-        Runnable w1 = new workerRun();
-        Thread t1 = new Thread(w1);
+
+        Runnable w1 = new workerRun7();
+        Thread t1 = new Thread(w1,"W7_A");
         t1.start();
 
-        workerRun w2 = new workerRun();
-        Thread t2 = new Thread(w2);
+        workerRun7 w2 = new workerRun7();
+        Thread t2 = new Thread(w2,"W7_B");
         t2.start();
+
 
         for (int i = 0; i < 10; i++) {
             System.out.println(i + "  -- " + Thread.currentThread().getName());
@@ -18,7 +20,9 @@ public class Task05 {
     }
 }
 
-class workerRun implements Runnable{
+class workerRun7 implements Runnable{
+
+
 
     @Override
     public void run() {

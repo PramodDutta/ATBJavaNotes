@@ -1,4 +1,4 @@
-package atb.classdemo.innerClassDemo;
+package thetestingacademy.oops.innerclasses;
 
 public class RunnerClass {
 

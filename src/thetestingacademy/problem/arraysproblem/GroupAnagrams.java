@@ -1,4 +1,4 @@
-package thetestingacademy.problem;
+package thetestingacademy.problem.arraysproblem;
 
 public class GroupAnagrams {
 

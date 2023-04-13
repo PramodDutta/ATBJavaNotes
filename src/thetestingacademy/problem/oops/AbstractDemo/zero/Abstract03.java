@@ -1,4 +1,4 @@
-package thetestingacademy.problem.oops.AbstractDemo;
+package thetestingacademy.problem.oops.AbstractDemo.zero;
 
 
 //Stop Object creation

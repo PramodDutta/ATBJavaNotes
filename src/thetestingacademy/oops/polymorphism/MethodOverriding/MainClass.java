@@ -11,6 +11,8 @@ public class MainClass {
         Shape shape = new Shape();
         Shape shape1 = new Shape();
 
+        // shape.getArea(); // Parent
+
         shape = new Circle(30);
         double cicleArea = shape.getArea();
         System.out.println(cicleArea);
@@ -18,6 +20,18 @@ public class MainClass {
         shape1 = new Rectangle(3,4);
         double recArea = shape1.getArea();
         System.out.println(recArea);
+
+
+        Shape s2 = new Shape();
+        s2.getArea();
+        Shape s3 = new Circle(34);
+        s3.getArea();
+        Shape s4 = new Rectangle(34,34);
+        s4.getArea();
+
+        // Dynamic Dispatch - Runtime PoLY
+
+
 
 
 

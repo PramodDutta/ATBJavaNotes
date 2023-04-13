@@ -1,4 +1,4 @@
-package thetestingacademy.oops.inheritence;
+package thetestingacademy.oops.inheritence.fixMP;
 
 public class MultipleInheritance01 {
     public static void main(String[] args) {

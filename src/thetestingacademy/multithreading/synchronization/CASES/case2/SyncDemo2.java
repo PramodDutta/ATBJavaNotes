@@ -1,6 +1,6 @@
 package thetestingacademy.multithreading.synchronization.CASES.case2;
 
-public class SyncDemo {
+public class SyncDemo2 {
 
     public static void main(String[] args) throws Exception{
         Sync s1=new Sync();

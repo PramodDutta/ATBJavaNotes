@@ -7,12 +7,12 @@ public class Ex03 {
             String ip = args[0];
             int a = Integer.parseInt(args[0]);
             int b = 10 / a;
-        } catch (NumberFormatException exception) {
-            exception.printStackTrace();
-        } catch (ArithmeticException exception) {
-            exception.printStackTrace();
-        } catch (ArrayIndexOutOfBoundsException exception) {
-            exception.printStackTrace();
+            System.out.println(a);
+            System.out.println(b);
+        } catch (ArithmeticException | NumberFormatException | ArrayIndexOutOfBoundsException e) {
+            e.printStackTrace();
         }
+
+
     }
 }

@@ -3,6 +3,7 @@ package thetestingacademy.corejava.staticDEMO;
 public class Player {
 
     String name;
+    String age;
     public static int count;
     public static String gameName;
 

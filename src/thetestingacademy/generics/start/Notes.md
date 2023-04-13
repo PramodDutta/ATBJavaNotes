@@ -1,0 +1,1 @@
+"Generics allow the reusability of code, where one single method can be used for different data-types of variables or objects."
