@@ -11,12 +11,14 @@ public class NoDups {
         map.put(3,"Banana");
         map.put(1,"Grapes"); //trying duplicate key
 
-        //hm.putIfAbsent(103, "Gaurav");
-        // Remove map.remove(100);
+        //map.putIfAbsent(103, "Gaurav");
+        //Remove
+        map.remove(103);
         //value-based removal
         // map.remove(101);
         ////key-value pair based removal
-        //    map.remove(102, "Rahul");
+        boolean t = map.remove(102, "Rahul");
+        System.out.println(t);
 
         System.out.println("Iterating Hashmap...");
         for(Map.Entry m : map.entrySet()){

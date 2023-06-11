@@ -7,9 +7,11 @@ public class dw01 {
         // Do While -> Body -> Condition -> Increment
 
         do{
-            System.out.println("Value of a:"+a);
-            a--;
-            break;
-        }while(a>20);
+            System.out.println("Value of a: "+a); // a = 0
+            a--; //a = -1
+            //break;
+        }while(a>-5);
+
+
     }
 }

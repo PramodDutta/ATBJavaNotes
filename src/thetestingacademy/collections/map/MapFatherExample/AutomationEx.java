@@ -11,7 +11,7 @@ public class AutomationEx {
         Student stu4 = new Student(4, "AJIM", "Test@gmail.com", 99999999);
         Student stu5 = new Student(5, "AJU", "Test@gmail.com", 99999999);
 
-        List<Student> stuList1 = new ArrayList<Student>();
+        List<Student> stuList1 = new ArrayList();
 
         stuList1.add(stu1);
         stuList1.add(stu2);

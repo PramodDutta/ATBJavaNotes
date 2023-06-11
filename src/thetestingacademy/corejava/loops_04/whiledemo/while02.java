@@ -7,6 +7,8 @@ public class while02 {
             while (++i < 10) { // EXIT Condition with the Increment
             System.out.println(i);
         }
+
+            // 1,2,3,4,5,6,7,8,9
     }
 
 }

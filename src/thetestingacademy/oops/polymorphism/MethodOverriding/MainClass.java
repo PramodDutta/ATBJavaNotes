@@ -19,6 +19,7 @@ public class MainClass {
 
         shape1 = new Rectangle(3,4);
         double recArea = shape1.getArea();
+        shape1.sanjay();
         System.out.println(recArea);
 
 
@@ -31,8 +32,9 @@ public class MainClass {
 
         // Dynamic Dispatch - Runtime PoLY
 
-
-
+//        Webdriver - 10
+//        Webdriver w = new ChromeDriver();  10 +  21
+//        Webdriver w2 = new FirefoxDrvier(); 10 +  18
 
 
     }

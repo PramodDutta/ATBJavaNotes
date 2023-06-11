@@ -23,6 +23,8 @@ public class HashTable {
         ht2.put(4, "four");
         ht2.put(5, "five");
         ht2.put(6, "six");
+        ht2.put(null, "dasda");
+        ht2.put(8, null);
 
         // Print mappings to the console
         System.out.println("Mappings of ht1 : " + ht1);

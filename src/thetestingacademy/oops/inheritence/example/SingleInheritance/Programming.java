@@ -5,6 +5,10 @@ class Programming {
     int version;
     String author;
 
+    Programming(){
+        System.out.println("I am default");
+    }
+
     Programming(int version, String author){
         this.author = author;
         this.version = version;

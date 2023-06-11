@@ -4,6 +4,10 @@ class Java  extends Programming{
 
     String newFeature;
 
+    Java(){
+
+    }
+
     Java(int version, String author,String newFeature) {
         //super();
         super(version, author);

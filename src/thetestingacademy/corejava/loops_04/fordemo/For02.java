@@ -5,6 +5,8 @@ public class For02 {
         int n=9;
         for(int i=1;i<=10;i++) {
             System.out.println(n + " * " + i + " = " + n * i);
+            // 9 * 1 = 9
+            // 9 * 2 = 18
         }
     }
 }

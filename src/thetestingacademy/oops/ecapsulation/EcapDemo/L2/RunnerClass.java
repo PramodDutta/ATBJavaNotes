@@ -7,7 +7,7 @@ public class RunnerClass {
 
         Books java = new Books();
         java.setTitle("Head First Java");
-        java.setNumberOfCopies(900);
+        java.setNumberOfCopies(-1);
         System.out.println(java);
 
         // Add more copies

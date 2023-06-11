@@ -11,12 +11,12 @@ public class Strin04 {
         System.out.println(str1.compareTo(str2));
         System.out.println(str2.compareTo(str3));
         System.out.println(str3.compareTo(str2));
-
-        str2="Tta";
-        str3="TTa";
-
-        System.out.println(str2.compareTo(str3));
-        System.out.println(str3.compareTo(str2));
+//
+//        str2="Tta";
+//        str3="TTa";
+//
+//        System.out.println(str2.compareTo(str3));
+//        System.out.println(str3.compareTo(str2));
 
     }
 }

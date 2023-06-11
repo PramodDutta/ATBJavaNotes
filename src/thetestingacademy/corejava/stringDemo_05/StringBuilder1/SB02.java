@@ -20,6 +20,8 @@ public class SB02 {
         sb1.append(" Pramod");
         System.out.println(sb1);
         sb1.reverse();
+        int a = sb1.lastIndexOf("A");
+        System.out.println(a);
         System.out.println(sb1);
 
 

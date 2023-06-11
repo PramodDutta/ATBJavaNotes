@@ -5,8 +5,12 @@ public class while01 {
 
         int i=1;
         while(i<=10){ // Exit Condition
-            System.out.println(i);
-            i++;
+            System.out.println(i); // Code You want to execute // 1
+            if(i > 2){
+                break;
+            }else{
+                i++;
+            }
         }
 
     }

@@ -1,6 +1,6 @@
 package thetestingacademy.oops.ecapsulation.EcapDemo.L2;
 
-public class Books {
+public class Books extends Object{
 
     public String getTitle() {
         return title;
@@ -28,7 +28,7 @@ public class Books {
 
     @Override
     public String toString() {
-        return "Books{" +
+        return "My Books{" +
                 "title='" + title + '\'' +
                 ", numberOfCopies=" + numberOfCopies +
                 '}';

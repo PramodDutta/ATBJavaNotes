@@ -2,6 +2,7 @@ package thetestingacademy.generics.example;
 
 public class MaxtTheeNonGeneric {
         // determines the largest of three Comparable objects
+       // 43,54,67
         public static int maximum(int first, int second, int third) {
             int max = first; // assume first is initially the largest
 
@@ -14,6 +15,8 @@ public class MaxtTheeNonGeneric {
             }
             return max; // returns the largest object
         }
+
+        // 78.9, 67.3, 45.5
 
         public static double maximum(double x, double y, double z) {
             double max = x; // assume x is initially the largest

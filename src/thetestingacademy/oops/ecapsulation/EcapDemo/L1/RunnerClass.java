@@ -10,7 +10,7 @@ public class RunnerClass {
         System.out.println(java);
 
         // Add more copies
-        java.numberOfCopies = 100;
+        java.numberOfCopies = -1;
         System.out.println(java);
 
 

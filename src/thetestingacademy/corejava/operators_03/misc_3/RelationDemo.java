@@ -2,6 +2,8 @@ package thetestingacademy.corejava.operators_03.misc_3;
 
 public class RelationDemo {
     public static void main(String[] args) {
+        // 10 ==10
+        // 10 == 20 -> false
         System.out.println('A' == 65);
         byte b = 65;
         System.out.println('A' == b);

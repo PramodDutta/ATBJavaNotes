@@ -11,8 +11,19 @@ public class MainClass {
         Python p = new Python(3,"RK2","HTTP");
         p.printPython();
 
+        sleep();
+
+        Java j = new Java();
+        Java j2 = new Java();
+        j2=j;
 
 
+
+
+
+    }
+
+    static void sleep(){
 
     }
 }

@@ -7,6 +7,10 @@ public class For01 {
             System.out.println(i);
         }
 
+         // 0,2,4,6,8
+
+
+
 //        int i = 0 ->  Initialization =
 //        i < 10 -> Condition =
 //        i++ -> Increment/Decrement =

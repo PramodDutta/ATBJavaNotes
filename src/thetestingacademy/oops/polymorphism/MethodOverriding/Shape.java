@@ -7,4 +7,6 @@ public class Shape  {
         return 0;
     }
 
+    void sanjay(){}
+
 }

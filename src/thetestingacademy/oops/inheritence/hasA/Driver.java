@@ -2,6 +2,8 @@ package thetestingacademy.oops.inheritence.hasA;
 
 public class Driver {
 
+    // Has - A
+
     private String name;
     private Vehicle vehicle;
 

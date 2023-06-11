@@ -20,7 +20,7 @@ class DateDataParam {
     }
 
     public void printDate() {
-        System.out.println("Date is " + day + "|" + month + "|"+year);
+        System.out.println("Date is " + this.day + "|" + this.month + "|"+this.year);
     }
 
 

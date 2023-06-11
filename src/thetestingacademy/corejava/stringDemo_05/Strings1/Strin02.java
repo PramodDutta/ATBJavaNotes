@@ -9,13 +9,13 @@ public class Strin02 {
 
             System.out.println(name == name1);
             System.out.println(name.equals(name1));
-
+//
             System.out.println(name.equalsIgnoreCase(name1));
-
-
+//
+//
             System.out.println(name == name2);
-
-
+//
+//
             System.out.println(name.equals(name2));
 
 

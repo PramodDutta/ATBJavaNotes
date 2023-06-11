@@ -6,5 +6,7 @@ public class Ter01 {
         int b=false?10:20;
         System.out.println(a);
         System.out.println(b);
+
+
     }
 }
